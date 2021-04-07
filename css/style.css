@@ -1,0 +1,68 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.section1{
+    display:flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top: 30px;
+}
+#dot{
+    color: blue;
+}
+.section2{
+    display:flex;
+    /* align-items: center; */
+    justify-content: center;
+    height: 10%;
+}
+#soon{
+    color: black;
+    font-weight: bold; 
+}
+#paragraph1{
+    font-size: 47;
+    color:#aaabad;
+    margin-top: 10;
+}
+.section3{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#paragraph2{
+    font-size: 20;
+    color:#5d5e5e;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.divsearch{
+    width: 600px;
+}
+#search{
+    height: 50px;
+    width: 400px;
+    border-radius: 20px;
+    border-color: #dbdbdb;
+    padding-left: 20px;
+    outline:none;
+    border-style: solid;
+}
+#notify{
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    background-color: #0082fc;
+    border: none;
+    outline:none;
+    color: white;
+    margin-left: 20px;
+}
+#image{
+    height: 400px;
+    width: 600px;
+    margin-top: 70px;
+}
+input::placeholder { /*to control pseudo elements*/
+    color: #dbdbdb;
+  }
